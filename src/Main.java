@@ -33,6 +33,5 @@ public class Main {
                 .sorted(Map.Entry.<String, Long>comparingByValue().reversed().thenComparing(comparingByKey()))
                 .limit(10)
                 .forEach(System.out::println);
-
     }
 }
